@@ -5,7 +5,7 @@ variable "ami-id"{
  
 variable "instance_type" {
     type = string
-    
+   default = "t3.mirco"
 } 
 
 variable "tags" {
